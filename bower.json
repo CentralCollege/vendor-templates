@@ -1,0 +1,17 @@
+{
+  "name": "Central College",
+  "authors": [
+    "Jacob Oyen <oyenj@central.edu>"
+  ],
+  "description": "Central College vendor templates",
+  "homepage": "www.central.edu",
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "external-libraries"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
