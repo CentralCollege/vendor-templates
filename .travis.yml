@@ -7,8 +7,7 @@ php:
 notifications:
     email: false
 before_script:
-    - npm install -g csslint
     - npm install -g jshint
 script:
-    - csslint one-column-template/css/main.all.css
     - jshint one-column-template/js/menuToggle.js
+    - jshint calendar/js/main.js

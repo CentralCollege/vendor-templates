@@ -1,0 +1,226 @@
+/* ------------------------------------------------------------------
+Global Styles
+-------------------------------------------------------------------*/
+body{
+  font-family: Lato,sans-serif;
+  background-image: url(//img.centralcollege.info/JAM/main/template-images/bg.jpg);
+}
+.clearBoth{
+	clear:both;
+}
+/* ------------------------------------------------------------------
+Active Data Styles
+-------------------------------------------------------------------*/
+header#top-main,nav#main{
+	margin-bottom: 0;
+}
+.wrap{
+	padding: 0 .5em; background-color: #fff;
+}
+#view-search{
+	border-top: none;
+}
+#header-slogan, h1#logo{
+	display:none!important;
+}
+a#logo{
+	display: block;
+	background-color: #fff;
+	height: 100px;
+	padding: .5em;
+	box-shadow: 0 0 20px #000;
+	text-align: center;
+	z-index: 3;
+}
+nav#view-type ul li h2, nav#view-type ul li h3, .wrapper-dropdown, #view_by_next, #view_by_prev, #search-link, .view-icon.here, .view-icon:hover, #search_range, .list-event-preview h2 a, .list2 .quick-link-container ul li a, #theme-event-detail-view #event-details-main-content h2, .accordion-header, .share-it-accordion-content h4, h3#register-accordion, .active-header:hover, .active-header, .core-inline-products thead, .core-title, .modal h2, .core-subtitle, .core-confirmation-product-table thead, .inactive-header:hover, #event-favorite, .site-name, .site-item div a, .icon-search, #event-favorite-container #event-favorite, .adx-modal h2{
+	color: #cb2026;
+}
+#sidebar h3{
+	color: #cb2026;
+}
+#calendar-month {
+	background-color: #cb2026 !important;
+	border: none;
+	margin: 0;
+}
+#month thead{
+	background-color: #333;
+}
+.list2 #main-content h5{
+	background-color: #cb2026;
+	margin: 10px 0 0 0;
+}
+.list-event{
+	border-bottom: none;
+}
+.list-event-link a{
+	background-color: #cb2026;
+}
+.list-event-link a:hover{
+	background-color: #990000;
+}
+.list-event-locale p a[itemprop="url"] span{
+	color: #990000;
+}
+td.today{
+	background-color: #efefef;
+}
+#accordion-container{
+	margin: 0 !important;
+}
+#core_signup .core-button-container .core-button-submit{
+  background-color: none;
+}
+.core-button-submit{
+  background-color: #cb2026 !important;
+}
+.core-message a:link, .core-message a:visited{
+  color: #cb2026;
+  text-decoration: underline;
+}
+footer p {
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+/* ------------------------------------------------------------------
+Social media options
+------------------------------------------------------------------ */
+/*#sidebar{
+	display: none;
+}*/
+@media only screen and (max-width: 480px){
+	header#top-main {
+		background-color: #fff;
+		width: 100%;
+		margin: 0;
+	}
+}
+/* ------------------------------------------------------------------
+ _____            _             _   _____       _ _
+/  __ \          | |           | | /  __ \     | | |
+| /  \/ ___ _ __ | |_ _ __ __ _| | | /  \/ ___ | | | ___  __ _  ___
+| |    / _ \ '_ \| __| '__/ _` | | | |    / _ \| | |/ _ \/ _` |/ _ \
+| \__/\  __/ | | | |_| | | (_| | | | \__/\ (_) | | |  __/ (_| |  __/
+ \____/\___|_| |_|\__|_|  \__,_|_|  \____/\___/|_|_|\___|\__, |\___|
+                                                          __/ |
+                                                         |___/
+---------------------------------------------------------------------
+One-column styles for Central College
+-------------------------------------------------------------------*/
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 95%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 95%; }
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+.one-third.column               { width: 30.6666666667%; }
+.two-thirds.column              { width: 65.3333333333%; }
+}
+#logo img{
+  min-width: 250px;
+  height: 100%;
+}
+
+nav.primary{
+  background-color: #333;
+  padding: 12px 0 12px 1em;
+  text-align: center;
+}
+nav.primary a:link, nav.primary a:visited{
+  text-decoration: none;
+  min-height: 50px;
+  color: #fff;
+  padding: 10px 1em;
+}
+nav.primary a:hover{
+  background-color: #cb2026;
+}
+nav.secondary{
+  display: none;
+  background-color: #666;
+  padding: 10px 0 10px 2em;
+  box-shadow: inset 0 4px 9px -6px;
+  font-size: .8em;
+  text-align: center;
+}
+nav.secondary a:link, nav.secondary a:visited{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px .5em;
+}
+nav.secondary a:hover{
+  background-color: #cb2026;
+}
+/* footer */
+footer{
+  background-color: #333;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  color: #ccc;
+}
+footer div.one-third{
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+footer h5{
+  text-transform: uppercase;
+  border-bottom: 1px solid #666;
+  padding-bottom: 3px;
+  font-size: 1.2em;
+  color: #EBE1D6;
+}
+footer a:link, footer a:visited{
+  color: #ccc;
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+footer ul{
+  margin: .5em 0 0 1em;
+  padding: 0 .5em;
+}
+footer li{
+	list-style-type: none;
+}
+footer div:nth-child(3){
+  text-align: center;
+}
+footer div:nth-child(3) a{
+  margin: 0 .5em;
+}
+.socialIcons{
+  text-align: center;
+}
+.socialIcons a:link, .socialIcons a:visited{
+  color: #ccc;
+}
+.socialIcons a:hover{
+  color: #fff;
+}
