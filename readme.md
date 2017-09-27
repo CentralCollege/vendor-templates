@@ -12,3 +12,6 @@ Both the CSS and JavaScript files are deployed to Amazon S3 for inclusion into t
 
 ## One Column Template
 The one column template folder includes minified and unminified CSS, minified and unminified JavaScript and an index.html file. To use this template, only the `index.html` and the `main.min.css` files are required. The JavaScript is included at the base of the index.html file to minimize http requests.
+
+## Email Template
+The email folder contains a copy of the template that is used by our email provider Emma. All images are linked off of their servers.
